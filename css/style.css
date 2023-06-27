@@ -1,0 +1,324 @@
+/*Pie pagina index*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.encabezado-index{
+    background-color: rgb(108, 131, 131);
+}
+.img-index{
+width: 100px;
+height: 100px;
+}
+#navbar ul li a{
+    
+    list-style-type: none;
+    display: inline-block;
+    color: goldenrod;
+}
+/*pie pag footer index*/
+.pie_footer
+{
+    background-color: rgb(108, 131, 131);
+
+}
+.h1_index{
+font-family: cursive; 
+font-style: inherit;
+grid-area: h1indx;
+
+
+}
+.h2-index{
+    font-family: cursive; 
+    font-style: inherit;    
+}
+/*boody */
+.body_index{
+    background-color: rgb(192, 113, 162);
+}
+.p-index{
+    font-family: cursive; 
+    font-style: inherit;
+    font-size: 25px;   
+}
+
+
+/*encabezado contactos*/
+.encabezado-contactos{
+    background-color: rgb(108, 131, 131);
+}
+
+/*Logo Contactos*/
+.img-contactos{
+    width: 100px;
+height: 100px;
+}
+
+/*body contacto*/
+.body-contacto{
+    background-image: url(../assets/Rectangle\ 29.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+/*main contacto*/
+
+/**.main-contactos{
+    width: 50px ;
+    height: 50px;
+    background-position: center center;
+}
+
+/*nav contacto*/
+.navbar-contacto ul li a{
+list-style-type: none;
+    display: inline-block;
+    color: goldenrod;
+}
+
+/*pie pagina contactos*/
+.pie-contactos{
+    background-color: rgb(108, 131, 131);
+}
+
+/*encabezado nuestros cafes*/
+.encabezado-cafes{
+    background-color: rgb(108, 131, 131);
+}
+
+/*Logo Cafe*/
+.img-cafe{
+    width: 100px;
+height: 100px;
+}
+
+/*nav cafe*/
+.navbar-cafe ul li a{
+    list-style-type: none;
+    display: inline-block;
+    color: goldenrod;
+}
+
+/*pie pag nuestros cafes*/
+.pie-cafe{
+    background-color: rgb(108, 131, 131);
+}
+
+/*encabezado reservas*/
+.encabezado-reservas{
+    background-color: rgb(108, 131, 131);
+}
+
+/*Logo Reservas*/
+.img-reservas{
+    width: 100px;
+height: 100px;
+}
+
+/*nav reservas*/
+.navbar-reservas ul li a{
+    list-style-type: none;
+    display: inline-block;
+    color: goldenrod;
+}
+
+/*pie de pagina reservas*/
+.pie-reservas{
+    background-color: rgb(108, 131, 131);
+}
+
+/*encabezado sucursal*/
+.encabezado-sucursal{
+    background-color: rgb(108, 131, 131);
+}
+
+/*Logo Sucursal*/
+.img-sucursal{
+    width: 100px;
+height: 100px;
+}
+
+/*nav sucursal*/
+.navbar-sucursal ul li a{
+    list-style-type: none;
+    display: inline-block;
+    color: goldenrod;
+}
+
+/*pie de pagina sucursal*/
+.pie-sucursal{
+    background-color: rgb(108, 131, 131);
+}
+/*index*/
+.list-indx{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    font-size: 25px;
+    list-style: none;
+    
+}
+.pie_footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 50%;
+    font-size: 40px
+    list-style:none;
+}
+.list-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style:none;
+    font-size: 30px;
+}
+.wsp-footer{
+    list-style:none;
+    justify-content:center;
+}
+.img-main{
+    grid-area: img-indx;
+}
+.main-index{
+    display: grid;
+    grid-template-areas: 
+    img-indx h1indx h1indx img-indx
+    
+}
+.section-indx{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sect-index{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+@media (max-width:576px){
+    .section-indx{
+        flex-direction: column;
+    }
+    .sect-index{
+        flex-direction: column;
+    }
+    .main-index{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}
+
+/*nuestros-cafes.html*/
+
+.list-cafes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    font-size: 35px;
+    list-style: none;
+}
+.img-coffe{
+    grid-row: 2;
+    width: 100%;
+    height: 50%;
+}
+.h1-cof{
+    grid-row: 1;
+    text-align: center;
+}
+.main-caffe{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 10px;
+}
+.sect-cof{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    font-size: 25px;
+    list-style: none;
+}
+.div-cof_sec ul{
+background-color: bisque;
+width: 95%;
+height: 75%;
+list-style: none;
+font-size: 40px;
+}
+.sect-coff{
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    font-size: 25px;
+    list-style: none;
+}
+.div-coff ul{
+    background-color: bisque;
+    width: 95%;
+    height: 75%;
+    list-style: none;
+    font-size: 40px;
+}
+.pie-cafe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    font-size: 90px
+    list-style:none;
+}
+.list-cof{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style:none;
+    font-size: 45px;
+}
+.wsp-cof{
+    list-style:none;
+    justify-content:center;
+}
+@media ( max-width:576px){
+    .list-cafes{
+        font-size: 80%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main-caffe{
+        display: flex;
+        flex-direction: column;
+    }
+    .sect-cof{
+        display: flex;
+        flex-direction: column;
+    }
+    .sect-coff{
+        display: flex;
+        flex-direction: column;
+    }
+    .pie-cafe{
+        width: 100%;
+    }
+}
+
+
+
