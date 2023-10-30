@@ -1,499 +1,63 @@
-/*Pie pagina index*/
+/* Generales */
 *{
     margin: 0;
     padding: 0;
 }
+
+/* Generales-final */
+
+
+
+
+/* Header */
 .encabezado-index{
-    background-color: rgb(108, 131, 131);
+    background-color: #ffb48a;
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    margin-right:20%;
+}
+.list-indx{
+    font-family: 'Peralta', serif;
+    display: flex;
+    flex-direction: row;
+    
 }
 .img-index{
-width: 100px;
-height: 100px;
-}
-#navbar ul li a{
-    
-    list-style-type: none;
-    display: inline-block;
-    color: goldenrod;
-}
-/*pie pag footer index*/
-.pie_footer
-{
-    background-color: rgb(108, 131, 131);
-
-}
-.h1_index{
-font-family: cursive; 
-font-style: inherit;
-grid-area: h1indx;
-
-
-}
-.h2-index{
-    font-family: cursive; 
-    font-style: inherit;    
-}
-/*boody */
-.body_index{
-    background-color: rgb(192, 113, 162);
-}
-.p-index{
-    font-family: cursive; 
-    font-style: inherit;
-    font-size: 25px;   
-}
-
-
-/*encabezado contactos*/
-.encabezado-contactos{
-    background-color: rgb(108, 131, 131);
-}
-
-/*Logo Contactos*/
-.img-contactos{
     width: 100px;
-height: 100px;
 }
-
-/*body contacto*/
-.body-contacto{
-    background-image: url(../assets/Rectangle\ 29.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-/*main contacto*/
-
-/**.main-contactos{
-    width: 50px ;
-    height: 50px;
-    background-position: center center;
-}
-
-/*nav contacto*/
-.navbar-contacto ul li a{
-list-style-type: none;
-    display: inline-block;
-    color: goldenrod;
-}
-
-/*pie pagina contactos*/
-.pie-contactos{
-    background-color: rgb(108, 131, 131);
-}
-
-/*encabezado nuestros cafes*/
-.encabezado-cafes{
-    background-color: rgb(108, 131, 131);
-}
-
-/*Logo Cafe*/
-.img-cafe{
-    width: 100px;
-height: 100px;
-}
-
-/*nav cafe*/
-.navbar-cafe ul li a{
-    list-style-type: none;
-    display: inline-block;
-    color: goldenrod;
-}
-
-/*pie pag nuestros cafes*/
-.pie-cafe{
-    background-color: rgb(108, 131, 131);
-}
-
-/*encabezado reservas*/
-.encabezado-reservas{
-    background-color: rgb(108, 131, 131);
-}
-
-/*Logo Reservas*/
-.img-reservas{
-    width: 100px;
-height: 100px;
-}
-
-/*nav reservas*/
-.navbar-reservas ul li a{
-    list-style-type: none;
-    display: inline-block;
-    color: goldenrod;
-}
-
-/*pie de pagina reservas*/
-.pie-reservas{
-    background-color: rgb(108, 131, 131);
-}
-
-/*encabezado sucursal*/
-.encabezado-sucursal{
-    background-color: rgb(108, 131, 131);
-}
-
-/*Logo Sucursal*/
-.img-sucursal{
-    width: 100px;
-height: 100px;
-}
-
-/*nav sucursal*/
-.navbar-sucursal ul li a{
-    list-style-type: none;
-    display: inline-block;
-    color: goldenrod;
-}
-
-/*pie de pagina sucursal*/
-.pie-sucursal{
-    background-color: rgb(108, 131, 131);
-}
-/*index*/
-.list-indx{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    height: 50%;
-    font-size: 25px;
+.navbar ul li{
     list-style: none;
-    
+    padding-left: 100px;
 }
-.pie_footer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    height: 50%;
-    font-size: 40px;
-    list-style:none;
+.navbar ul li a{
+    text-decoration: none;
+    color:#320000;
+    font-size: 20px;
 }
-.list-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style:none;
-    font-size: 30px;
-}
-.wsp-footer{
-    list-style:none;
-    justify-content:center;
-}
-.img-main{
-    grid-area: img-indx;
-}
+
+/* Header-final */
+
+
+
+
+
+
+/* Main-Index */
 .main-index{
-    display: grid;
-    grid-template-areas: 
-    img-indx h1indx h1indx img-indx
-    
-}
-.section-indx{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.sect-index{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-@media (max-width:576px){
-    .section-indx{
-        flex-direction: column;
-    }
-    .sect-index{
-        flex-direction: column;
-    }
-    .main-index{
-        display: flex;
-        flex-direction: column;
-    }
-    .navbar{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-
+    background-color: rgba(165, 184, 182, 0.417);
 }
 
-/*nuestros-cafes.html*/
 
-.list-cafes{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    height: 50%;
-    font-size: 20px;
-    list-style: none;
-}
-
-.img-cof{
-    background-image: url(../assets/coffee.jpg);
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.main-caffe{
-    background-color: rgb(243, 201, 223);
-}
-.sect-cof_prin{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 20%;
-    width: 20%;
-    /* font-size: 20px;
-    list-style: none; */
-    gap: 30%;
-}
-/* .img-div1_cof{
-    width: 90px;
-    height: 90px;
+/* Main-Index-final */
 
 
-}
-.img-div2_cof{
-    width: 90px;
-    height: 90px;
-} */
-.div-cof_sec ul{
-background-color: bisque;
-width: 20%;
-list-style: none;
-font-size: 20px;
-}
-.sect-cof_sec{
-    display: flex;
-    flex-direction:row-reverse;
-    align-items: center;
-    justify-content: center;
-    width: 30%;
-    height: 30%;
-    font-size: 25px;
-    list-style: none;
-    gap: 30%;
-}
-.div-coff ul{
-    background-color: bisque;
-    width: 150px;
-    height: 100%;
-    list-style: none;
-    font-size: 100%;
-}
-.pie-cafe {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    height: 150px;
-    font-size: 20px;
-    list-style:none;
-}
-.list-cof{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style:none;
-    font-size: 45px;
-}
-.wsp-cof{
-    list-style:none;
-    justify-content:center;
-}
-@media ( max-width:576px){
-    .encabezado-cafes{
-    width: 100%;
-    }
-    .list-cafes{
-        font-size: 100%;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .main-caffe{
-        display: flex;
-        flex-direction: column;
-    }
-    .sect-cof{
-        display: flex;
-        flex-direction: column;
-    }
-    .sect-coff{
-        display: flex;
-        flex-direction: column;
-    }
-    .pie-cafe{
-        width: 100%;
-    }
-    .main-caffe{
-        background-color: rgb(243, 201, 223);
-    }
 
-    /*Contactos*/
-}
 
-.main-contactos{
-   
-    background-color: rgba(250, 235, 215, 0.604);
-    width: 40%;
-    height: 40%;
-    list-style: none;
-    padding: 15%;
-    margin: 15%;
-    opacity: inherit;
-    border: black 1px solid;
-    border-radius: 10px;
-    
-}
-.li-contc{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    height: 50%;
-    font-size: 35px;
-    list-style: none;
-}
-.pie-contactos{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 150px;
-    font-size: 20px;
-    list-style:none;
-}
-.li-contc{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style:none;
-    font-size: 30px;
-}
-.wsp-cont{
-    list-style:none;
-    justify-content:center;
-    align-items: center;
-}
-.img-1{
-    width: 20%;
-    height:20%,
-    grid-area: img1;
-    
-    }
 
-.img-2{
-    width: 20%;
-    height:20%;
-    grid-area: img2;
-}
+/* Footer */
 
-.img-3{
-    width: 20%;
-    height:20%;
-    grid-area: img3;
-}
-
-.img-4{
-    width: 20%;
-    height:20%;
-    grid-area: img4;
-}
-
-.img-5{
-    width: 20%;
-    height:20%;
-    grid-area: img5;
-}
-.p1{
-    grid-area:p1 ;
-}
-
-.p2{
-    grid-area:p2 ;
-}
-
-.p3{
-    grid-area:p3 ;
-}
-
-.p4{
-    grid-area:p4;
-}
-
-.p5{
-    grid-area:p5 ;
-}
-.ul-contc{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas:
-    "img1 img2 im3"
-    "p1 p2 p3"
-    "img4 p4 img5 p5" ; 
-}
-/*sucursal*/
-
-.li-suc{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    /* height: 40%; */
-    font-size: 20px;
-    list-style: none;
-    align-self: flex-end;
-}
-.pie-sucursal{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    height: 150px;
-    font-size: 20px;
-    list-style:none;
-}
-
-.wsp-su{
-    list-style:none;
-    justify-content:center;
-    align-items: center;
-}
-.li-rds_suc{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style:none;
-    font-size: 45px;
-}
-.bod-s{
-    background-color: antiquewhite;
-}
-.h1-s{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.div1-s {
-    display: flex;
-    flex-direction: row;
-    gap: 3px;; 
-    font-size: 45px;
-    font-style: unset;
-} 
-
-.div2-s{
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 3px;; 
-    font-size: 45px;
-    font-style: unset;
-}
-
+/* Footer-final */
